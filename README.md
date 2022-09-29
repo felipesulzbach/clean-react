@@ -1,2 +1,3 @@
 # clean-react
-React projetct following the last arquiteture's default.
+
+React project with Clean code, following the principles of SOLID.
