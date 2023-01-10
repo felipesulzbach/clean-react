@@ -1,6 +1,6 @@
 import { HttpPostClient } from "../../../src/data/usecase/authentication/protocol/http/http-post-client"
 
-export class HttpPostClientSpy implements HttpPostClient {
+class HttpPostClientSpy implements HttpPostClient {
   url?: string
 
   async post(url: string): Promise<void> {
@@ -8,3 +8,5 @@ export class HttpPostClientSpy implements HttpPostClient {
     return Promise.resolve()
   }
 }
+
+export { HttpPostClientSpy }
