@@ -1,7 +1,7 @@
 import { RemoteAuthentication } from '../../../../src/data/usecase/authentication/remote-authentication'
 import { HttpPostClientSpy } from '../../../resource/mock/mock-http-client';
 import { getFakeUrl } from '../../../resource/faker/http-faker'
-import { getAuthenticationFake } from '../../../resource/faker/authenticationn-faker'
+import { getAuthenticationFake } from '../../../resource/faker/authentication-faker'
 
 type SubTypes = {
   sut: RemoteAuthentication
